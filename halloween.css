@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    display: flex;
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+.h-primary{
+    display: flex;
+    font-size:26px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    padding: 100px;
+    width: 33%;
+    border-radius: 28px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+/* .box{ 
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid white;
+    width:33%;
+    justify-content: right;
+    margin: 0%;
+    padding: 0%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    order: 2;
+}*/
+
+
+.form-group input {
+    /* font-family: 'Baloo Bhai', cursive; */
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    margin: 15px;
+    display: block;
+    width: 410px;
+    padding: 1px;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.about{
+    background-color: black;
+    color: white;
+}
+
+.aboutphase2
+{  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+.aboutphase1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.price{
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+
+
